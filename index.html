@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <!-- Metadatos mejorados para SEO -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contáctanos en Cortez Berlanga & Asociados para asesoría jurídica en Monterrey y CDMX. Expertos en derecho corporativo y empresarial.">
+  <meta name="keywords" content="abogados, derecho corporativo, asesoría jurídica, bufete Monterrey, abogados CDMX">
+  <meta name="author" content="Cortez Berlanga & Asociados">
+  
+  <!-- Open Graph / Social Media -->
+  <meta property="og:title" content="Contacto | Cortez Berlanga & Asociados">
+  <meta property="og:description" content="Expertos en derecho corporativo y empresarial en Monterrey y CDMX.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.cortezberlanga.com/contacto">
+  <meta property="og:image" content="https://www.cortezberlanga.com/images/og-image.jpg">
+  
+  <title>Contacto | Cortez Berlanga & Asociados - Bufete Jurídico</title>
+  
+  <!-- Hojas de estilo -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.min.css">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+</head>
+<body>
+  <!-- Barra de navegación principal -->
+  <header class="navbar">
+    <div class="container">
+      <a href="index.html" class="navbar-brand">
+        <i class="fas fa-balance-scale"></i> Cortez Berlanga & Asociados
+      </a>
+      
+      <nav class="navbar-nav" aria-label="Navegación principal">
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="servicios.html">Servicios</a></li>
+          <li><a href="equipo.html">Equipo</a></li>
+          <li><a href="contacto.html" class="active">Contacto</a></li>
+        </ul>
+      </nav>
+      
+      <button class="navbar-toggler" aria-label="Menú móvil" aria-expanded="false">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+  </header>
+
+  <!-- Sección hero con llamada a la acción -->
+  <section class="hero" aria-labelledby="hero-heading">
+    <div class="container">
+      <div class="hero-content">
+        <h1 id="hero-heading" class="title">Contáctanos</h1>
+        <p class="hero-text">Estamos para servirte. Completa el formulario y te responderemos a la brevedad.</p>
+        <div class="hero-cta">
+          <a href="#contacto" class="btn btn-primary">Ir al formulario</a>
+          <a href="tel:+528112345678" class="btn btn-secondary">
+            <i class="fas fa-phone"></i> Llamar ahora
+          </a>
+        </div>
+      </div>
+      <div class="hero-image" role="img" aria-label="Abogados profesionales en reunión">
+        <!-- Imagen de fondo se maneja en CSS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Formulario de contacto principal -->
+  <main id="contacto">
+    <section class="container">
+      <div class="contact-header">
+        <h2>Formulario de contacto</h2>
+        <p>O si prefieres, contáctanos directamente:</p>
+        <div class="contact-methods">
+          <a href="mailto:contacto@cortezberlanga.com" class="contact-method">
+            <i class="fas fa-envelope"></i> contacto@cortezberlanga.com
+          </a>
+          <a href="tel:+528112345678" class="contact-method">
+            <i class="fas fa-phone"></i> (81) 1234 5678
+          </a>
+          <a href="https://wa.me/528112345678" class="contact-method">
+            <i class="fab fa-whatsapp"></i> WhatsApp
+          </a>
+        </div>
+      </div>
+      
+      <form action="https://formsubmit.co/cortezberlanga@ejemplo.com" method="POST" class="contact-form">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="nombre">Nombre completo *</label>
+            <input type="text" name="nombre" id="nombre" class="form-control" required aria-required="true">
+          </div>
+          <div class="form-group">
+            <label for="email">Correo electrónico *</label>
+            <input type="email" name="email" id="email" class="form-control" required aria-required="true">
+          </div>
+        </div>
+        
+        <div class="form-row">
+          <div class="form-group">
+            <label for="telefono">Teléfono</label>
+            <input type="tel" name="telefono" id="telefono" class="form-control" pattern="[0-9]{10}">
+          </div>
+          <div class="form-group">
+            <label for="asunto">Asunto</label>
+            <select name="asunto" id="asunto" class="form-control">
+              <option value="">Selecciona una opción</option>
+              <option value="corporativo">Derecho Corporativo</option>
+              <option value="fiscal">Asesoría Fiscal</option>
+              <option value="laboral">Derecho Laboral</option>
+              <option value="otro">Otro</option>
+            </select>
+          </div>
+        </div>
+        
+        <div class="form-group">
+          <label for="mensaje">Mensaje *</label>
+          <textarea name="mensaje" id="mensaje" class="form-control" rows="6" required aria-required="true"></textarea>
+        </div>
+        
+        <div class="form-footer">
+          <button type="submit" class="btn btn-primary btn-block">
+            <i class="fas fa-paper-plane"></i> Enviar mensaje
+          </button>
+          <p class="form-note">* Campos obligatorios</p>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <!-- Sección de ubicación de oficinas -->
+  <section class="offices">
+    <div class="container">
+      <h2 class="section-title">Nuestras oficinas</h2>
+      <div class="office-cards">
+        <!-- Oficina Monterrey -->
+        <div class="office-card">
+          <div class="office-map" id="map-monterrey" role="img" aria-label="Mapa de ubicación oficina Monterrey">
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14377.551369576312!2d-100.3161!3d25.6866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjXCsDQxJzExLjgiTiAxMDDCsDE4JzU4LjAiVw!5e0!3m2!1sen!2smx!4v1234567890123!5m2!1sen!2smx" 
+              width="100%" 
+              height="250" 
+              style="border:0;" 
+              allowfullscreen="" 
+              loading="lazy" 
+              referrerpolicy="no-referrer-when-downgrade"
+              title="Ubicación oficina Monterrey">
+            </iframe>
+          </div>
+          <div class="office-info">
+            <h3>Monterrey</h3>
+            <address>
+              <i class="fas fa-map-marker-alt"></i> Calle Falsa 123, Col. Centro<br>
+              Monterrey, N.L. 64000
+            </address>
+            <a href="tel:+528112345678" class="office-phone">
+              <i class="fas fa-phone"></i> (81) 1234 5678
+            </a>
+            <div class="office-hours">
+              <h4>Horario:</h4>
+              <p>Lunes a Viernes: 9:00 - 18:00 hrs</p>
+              <p>Sábados: 10:00 - 14:00 hrs</p>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Oficina CDMX -->
+        <div class="office-card">
+          <div class="office-map" id="map-cdmx" role="img" aria-label="Mapa de ubicación oficina CDMX">
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.888238184932!2d-99.1678996845336!3d19.42702074612539!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff35f5bd1563%3A0x6c366f0e2de02ff7!2sEl%20%C3%81ngel%20de%20la%20Independencia!5e0!3m2!1sen!2smx!4v1620000000000!5m2!1sen!2smx" 
+              width="100%" 
+              height="250" 
+              style="border:0;" 
+              allowfullscreen="" 
+              loading="lazy" 
+              referrerpolicy="no-referrer-when-downgrade"
+              title="Ubicación oficina CDMX">
+            </iframe>
+          </div>
+          <div class="office-info">
+            <h3>Ciudad de México</h3>
+            <address>
+              <i class="fas fa-map-marker-alt"></i> Avenida Ejemplo 456, Col. Juárez<br>
+              CDMX, 06600
+            </address>
+            <a href="tel:+525512345678" class="office-phone">
+              <i class="fas fa-phone"></i> (55) 1234 5678
+            </a>
+            <div class="office-hours">
+              <h4>Horario:</h4>
+              <p>Lunes a Viernes: 9:00 - 18:00 hrs</p>
+              <p>Sábados: Cerrado</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pie de página -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Columna 1: Sobre nosotros -->
+        <div class="footer-col footer-about">
+          <h3 class="footer-title">Sobre nosotros</h3>
+          <p class="footer-text">Bufete jurídico con más de 20 años de experiencia, especializado en derecho corporativo y empresarial con presencia en Monterrey y CDMX.</p>
+          <div class="footer-logo">
+            <i class="fas fa-balance-scale"></i> Cortez Berlanga & Asociados
+          </div>
+        </div>
+        
+        <!-- Columna 2: Enlaces rápidos -->
+        <div class="footer-col footer-links">
+          <h3 class="footer-title">Enlaces rápidos</h3>
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="servicios.html">Áreas de práctica</a></li>
+            <li><a href="equipo.html">Nuestro equipo</a></li>
+            <li><a href="blog.html">Artículos jurídicos</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+        
+        <!-- Columna 3: Contacto -->
+        <div class="footer-col footer-contact">
+          <h3 class="footer-title">Contacto</h3>
+          <address>
+            <p><i class="fas fa-map-marker-alt"></i> <strong>Monterrey:</strong> Calle Falsa 123</p>
+            <p><i class="fas fa-map-marker-alt"></i> <strong>CDMX:</strong> Avenida Ejemplo 456</p>
+            <p><i class="fas fa-envelope"></i> contacto@cortezberlanga.com</p>
+            <p><i class="fas fa-phone"></i> (81) 1234 5678</p>
+          </address>
+        </div>
+        
+        <!-- Columna 4: Redes sociales -->
+        <div class="footer-col footer-social">
+          <h3 class="footer-title">Síguenos</h3>
+          <div class="social-links">
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          </div>
+          <div class="footer-newsletter">
+            <h4>Suscríbete a nuestro boletín</h4>
+            <form class="newsletter-form">
+              <input type="email" placeholder="Tu correo electrónico" required>
+              <button type="submit" class="btn btn-small">
+                <i class="fas fa-paper-plane"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Sección inferior del footer -->
+      <div class="footer-bottom">
+        <div class="footer-legal">
+          <a href="privacidad.html">Política de privacidad</a>
+          <a href="terminos.html">Términos de servicio</a>
+          <a href="aviso.html">Aviso legal</a>
+        </div>
+        <div class="footer-copyright">
+          &copy; <span id="current-year">2025</span> Cortez Berlanga & Asociados. Todos los derechos reservados.
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Botones flotantes de contacto -->
+  <div class="floating-buttons">
+    <a href="https://wa.me/528112345678" class="btn-floating btn-whatsapp" aria-label="Contáctanos por WhatsApp">
+      <i class="fab fa-whatsapp"></i>
+      <span class="tooltip">WhatsApp</span>
+    </a>
+    <a href="tel:+528112345678" class="btn-floating btn-call" aria-label="Llámanos">
+      <i class="fas fa-phone"></i>
+      <span class="tooltip">Llamar</span>
+    </a>
+    <a href="#contacto" class="btn-floating btn-email" aria-label="Envíanos un correo">
+      <i class="fas fa-envelope"></i>
+      <span class="tooltip">Email</span>
+    </a>
+  </div>
+
+  <!-- Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+  <script>
+    // Actualizar año de copyright automáticamente
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+    
+    // Control del menú móvil
+    const toggler = document.querySelector('.navbar-toggler');
+    const nav = document.querySelector('.navbar-nav');
+    
+    toggler.addEventListener('click', () => {
+      const expanded = toggler.getAttribute('aria-expanded') === 'true';
+      toggler.setAttribute('aria-expanded', !expanded);
+      nav.style.display = expanded ? 'none' : 'flex';
+    });
+    
+    // Scroll suave para enlaces internos
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+  </script>
+</body>
+</html>
